@@ -1,100 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Betta Wollongong - Your local appliance store offering fridges, washing machines, TVs, and more. Call us for personalized service!">
-    <meta name="keywords" content="Betta Wollongong, appliances Wollongong, home appliances, fridges, washing machines, TVs">
+    <meta name="description" content="Betta Wollongong - Your local appliance store offering washing machines, fridges, dryers, TVs, coffee machines, and more. Call us for personalized service!">
+    <meta name="keywords" content="Betta Wollongong, appliances Wollongong, washing machines, fridges, dryers, TVs, coffee machines">
     <title>Betta Wollongong - Local Appliance Store</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
-<body class="bg-gray-100 font-sans">
-    <!-- Header -->
-    <header class="bg-blue-600 text-white py-4 sticky top-0 z-10">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Betta Wollongong</h1>
-            <a href="tel:+61242299655" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500">Call Us: (02) 4229 9655</a>
-        </div>
-    </header>
+<body class="bg-gray-800 text-white">
+   <header class="bg-black text-white py-4 sticky top-0 z-10">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Betta Wollongong</h1>
+        <a href="tel:+61242299655" class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-500">Call Us: (02) 4229 9655</a>
+    </div>
+</header>
 
     <!-- Hero Section -->
-    <section class="bg-cover bg-center h-64 flex items-center" style="background-image: url('https://via.placeholder.com/1200x400?text=Appliances+Banner')">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold text-white drop-shadow-lg">Your Local Appliance Experts</h2>
-            <p class="text-xl text-white mt-2">Shop fridges, TVs, washing machines & more!</p>
-            <a href="#contact" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Request a Callback</a>
-        </div>
-    </section>
+   <section class="bg-cover bg-center h-64 flex items-center" style="background-image: url('https://via.placeholder.com/1200x400?text=Appliances+Banner')">
+    <div class="container mx-auto px-4 text-center bg-black bg-opacity-50 py-6 rounded">
+        <h2 class="text-4xl font-bold text-white drop-shadow-lg">Your Local Appliance Experts</h2>
+        <p class="text-xl text-gray-200 mt-2">Shop washing machines, fridges, dryers & more!</p>
+        <a href="#contact" class="mt-4 inline-block bg-gray-600 text-white px-6 py-3 rounded hover:bg-gray-500">Request a Callback</a>
+    </div>
+</section>
 
     <!-- Appliances Section -->
-    <section id="appliances" class="py-12">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8">Our Appliances</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded shadow">
-                    <img src="https://via.placeholder.com/300x200?text=Fridge" alt="Fridge" class="w-full h-40 object-cover mb-4">
-                    <h3 class="text-xl font-semibold">Fridges & Freezers</h3>
-                    <p>Cool solutions for every home.</p>
-                    <a href="https://www.betta.com.au/appliances/fridges-freezers" target="_blank" class="text-blue-600 hover:underline">Shop Now</a>
-                </div>
-                <div class="bg-white p-6 rounded shadow">
-                    <img src="https://via.placeholder.com/300x200?text=Washing+Machine" alt="Washing Machine" class="w-full h-40 object-cover mb-4">
-                    <h3 class="text-xl font-semibold">Laundry</h3>
-                    <p>Washing machines & dryers for all needs.</p>
-                    <a href="https://www.betta.com.au/appliances/washing-machines" target="_blank" class="text-blue-600 hover:underline">Shop Now</a>
-                </div>
-                <div class="bg-white p-6 rounded shadow">
-                    <img src="https://via.placeholder.com/300x200?text=TV" alt="TV" class="w-full h-40 object-cover mb-4">
-                    <h3 class="text-xl font-semibold">TVs & Audio</h3>
-                    <p>Immersive entertainment systems.</p>
-                    <a href="https://www.betta.com.au/electronics/televisions" target="_blank" class="text-blue-600 hover:underline">Shop Now</a>
-                </div>
+   <!-- Washing Machines Section -->
+<section id="washing-machines" class="py-12 bg-gray-900">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Washing Machines</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Washing+Machine" alt="Washing Machine" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Front Load Washers</h3>
+                <p>Efficient and powerful cleaning.</p>
+                <a href="https://www.betta.com.au/appliances/washing-machines" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Washing+Machine" alt="Washing Machine" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Top Load Washers</h3>
+                <p>Easy loading for all laundry needs.</p>
+                <a href="https://www.betta.com.au/appliances/washing-machines" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Washing+Machine" alt="Washing Machine" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Washer-Dryer Combos</h3>
+                <p>Space-saving laundry solutions.</p>
+                <a href="https://www.betta.com.au/appliances/washing-machines" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Fridges Section -->
+<section id="fridges" class="py-12 bg-gray-800">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Fridges & Freezers</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-900 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Fridge" alt="Fridge" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">French Door Fridges</h3>
+                <p>Spacious and stylish cooling.</p>
+                <a href="https://www.betta.com.au/appliances/fridges-freezers" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-900 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Fridge" alt="Fridge" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Side-by-Side Fridges</h3>
+                <p>Convenient storage for families.</p>
+                <a href="https://www.betta.com.au/appliances/fridges-freezers" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-900 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Fridge" alt="Fridge" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Freezers</h3>
+                <p>Extra storage for frozen goods.</p>
+                <a href="https://www.betta.com.au/appliances/fridges-freezers" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Dryers Section -->
+<section id="dryers" class="py-12 bg-gray-900">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Dryers</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Dryer" alt="Dryer" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Vented Dryers</h3>
+                <p>Fast and reliable drying.</p>
+                <a href="https://www.betta.com.au/appliances/dryers" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Dryer" alt="Dryer" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Condenser Dryers</h3>
+                <p>No venting required, easy setup.</p>
+                <a href="https://www.betta.com.au/appliances/dryers" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Dryer" alt="Dryer" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Heat Pump Dryers</h3>
+                <p>Energy-efficient drying.</p>
+                <a href="https://www.betta.com.au/appliances/dryers" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TVs Section -->
+<section id="tvs" class="py-12 bg-gray-800">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">TVs & Audio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-900 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=TV" alt="TV" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">LED TVs</h3>
+                <p>Vibrant visuals for any room.</p>
+                <a href="https://www.betta.com.au/electronics/televisions" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-900 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=TV" alt="TV" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">OLED TVs</h3>
+                <p>Deep blacks and stunning contrast.</p>
+                <a href="https://www.betta.com.au/electronics/televisions" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-900 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=TV" alt="TV" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Soundbars</h3>
+                <p>Immersive audio for your TV.</p>
+                <a href="https://www.betta.com.au/electronics/audio" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Coffee Machines Section -->
+<section id="coffee-machines" class="py-12 bg-gray-900">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Coffee Machines</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Coffee+Machine" alt="Coffee Machine" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Espresso Machines</h3>
+                <p>Barista-quality coffee at home.</p>
+                <a href="https://www.betta.com.au/appliances/coffee-machines" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Coffee+Machine" alt="Coffee Machine" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Capsule Machines</h3>
+                <p>Quick and convenient coffee.</p>
+                <a href="https://www.betta.com.au/appliances/coffee-machines" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <img src="https://via.placeholder.com/300x200?text=Coffee+Machine" alt="Coffee Machine" class="w-full h-40 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Automatic Machines</h3>
+                <p>Effortless coffee with one touch.</p>
+                <a href="https://www.betta.com.au/appliances/coffee-machines" target="_blank" class="text-gray-400 hover:text-gray-200">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- About Section -->
-    <section id="about" class="bg-gray-200 py-12">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8">About Betta Wollongong</h2>
-            <p class="text-lg text-center max-w-2xl mx-auto">Locally owned by Ali Bacher, Betta Wollongong has served the community for over 10 years. Our three friendly staff members are here to help you find the perfect appliance. We’re proud to support local events and charities in Wollongong!</p>
-        </div>
-    </section>
+    <section id="about" class="bg-gray-800 py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">About Betta Wollongong</h2>
+        <p class="text-lg text-center max-w-2xl mx-auto text-gray-200">Locally owned by Ali Bacher, Betta Wollongong has served the community for over 10 years. Our three friendly staff members are here to help you find the perfect appliance. We’re proud to support local events and charities in Wollongong!</p>
+    </div>
+</section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-12">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8">Get in Touch</h2>
-            <div class="flex flex-col md:flex-row gap-8">
-                <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold mb-4">Store Details</h3>
-                    <p><strong>Address:</strong> 149-153 Keira Street, Wollongong, NSW 2500</p>
-                    <p><strong>Phone:</strong> <a href="tel:+61242299655" class="text-blue-600 hover:underline">(02) 4229 9655</a></p>
-                    <p><strong>Email:</strong> <a href="mailto:wollongong@my.betta.com.au" class="text-blue-600 hover:underline">wollongong@my.betta.com.au</a></p>
-                    <div class="mt-4">
-                        <a href="https://www.google.com/maps/place/Betta+Home+Living+Wollongong" target="_blank" class="text-blue-600 hover:underline">View on Google Maps</a>
-                    </div>
-                </div>
-                <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold mb-4">Request a Callback</h3>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1234567890abcdefg/viewform?embedded=true" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <section id="contact" class="py-12 bg-gray-900">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Get in Touch</h2>
+        <div class="flex flex-col md:flex-row gap-8">
+            <div class="md:w-1/2">
+                <h3 class="text-xl font-semibold mb-4">Store Details</h3>
+                <p><strong>Address:</strong> 149-153 Keira Street, Wollongong, NSW 2500</p>
+                <p><strong>Phone:</strong> <a href="tel:+61242299655" class="text-gray-400 hover:text-gray-200">(02) 4229 9655</a></p>
+                <p><strong>Email:</strong> <a href="mailto:wollongong@my.betta.com.au" class="text-gray-400 hover:text-gray-200">wollongong@my.betta.com.au</a></p>
+                <div class="mt-4">
+                    <a href="https://www.google.com/maps/place/Betta+Home+Living+Wollongong" target="_blank" class="text-gray-400 hover:text-gray-200">View on Google Maps</a>
                 </div>
             </div>
+            <div class="md:w-1/2">
+                <h3 class="text-xl font-semibold mb-4">Request a Callback</h3>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1234567890abcdefg/viewform?embedded=true" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
         </div>
-    </section>
-
+    </div>
+</section>
     <!-- Footer -->
-    <footer class="bg-blue-600 text-white py-6">
-        <div class="container mx-auto px-4 text-center">
-            <p>© 2025 Betta Wollongong. All rights reserved.</p>
-            <div class="mt-4 flex justify-center gap-6">
-                <a href="https://www.instagram.com/bettawollongong" target="_blank" class="text-white hover:text-yellow-400"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="https://www.tiktok.com/@bettawollongong" target="_blank" class="text-white hover:text-yellow-400"><i class="fab fa-tiktok fa-2x"></i></a>
-                <a href="https://www.facebook.com/bettawollongong" target="_blank" class="text-white hover:text-yellow-400"><i class="fab fa-facebook fa-2x"></i></a>
-            </div>
+    <footer class="bg-black text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+        <p>© 2025 Betta Wollongong. All rights reserved.</p>
+        <div class="mt-4 flex justify-center gap-6">
+            <a href="https://www.instagram.com/bettawollongong" target="_blank" class="text-gray-400 hover:text-gray-200"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.tiktok.com/@bettawollongong" target="_blank" class="text-gray-400 hover:text-gray-200"><i class="fab fa-tiktok fa-2x"></i></a>
+            <a href="https://www.facebook.com/bettawollongong" target="_blank" class="text-gray-400 hover:text-gray-200"><i class="fab fa-facebook fa-2x"></i></a>
         </div>
-    </footer>
+    </div>
+</footer>
 
     <script>
         // Smooth scrolling for anchor links
